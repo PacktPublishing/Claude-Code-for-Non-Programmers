@@ -1,11 +1,11 @@
-# Chapter 26 — Your second brain (Obsidian as the visualizer, Claude as the writer)
+# Chapter 28 — Your second brain (Obsidian as the visualizer, Claude as the writer)
 
 This chapter builds an **llm-wiki**: a plain-Markdown knowledge base under
 `~/work/brain/` that Claude writes into and Obsidian renders. Five folders, one
 free app (Obsidian), and three rules Claude follows when it writes. The artifact
 is dated `.md` files on your disk — the format that outlives every tool. This
 folder is a ready-to-clone version of the brain the chapter walks you through
-scaffolding (the Chapter 22 dashboard seeded as the first project), plus the
+scaffolding (the Chapter 24 dashboard seeded as the first project), plus the
 richer variants the chapter's make-it-yours section describes.
 
 ## File-by-file
@@ -14,7 +14,7 @@ richer variants the chapter's make-it-yours section describes.
 
 - `work/brain/README.md` — explains the system: five folders, three rules, the
   "Claude writes; Obsidian renders" workflow, and the privacy note.
-- `work/brain/projects/dashboard/README.md` — one-paragraph summary of the Ch 22
+- `work/brain/projects/dashboard/README.md` — one-paragraph summary of the Ch 24
   dashboard (what it shows, data source, refresh cadence).
 - `work/brain/projects/dashboard/decisions/2026-04-18-chartjs-over-d3.md` — the
   seeded ADR (Chart.js over D3), the exact entry the chapter prints in full.
@@ -32,9 +32,9 @@ richer variants the chapter's make-it-yours section describes.
   most-linked entries plus one orphan. Plus its own README.
 - `variations/publish-public-skill/.claude/skills/publish-public/SKILL.md` —
   Variation 5: the skill that copies a sanitized, `public-ok`-tagged entry into
-  the Chapter 20 website's `posts/`. Never auto-publishes.
+  the Chapter 22 website's `posts/`. Never auto-publishes.
 - `variations/multi-project-sample/` — sample ADRs and runbooks across multiple
-  projects (Iris from Ch 9, Reuben from Ch 11) with a filled-in pattern entry,
+  projects (Iris from Ch 11, Reuben from Ch 13) with a filled-in pattern entry,
   so you can see a populated Obsidian graph before your own brain fills up.
 
 ### Root
@@ -60,4 +60,4 @@ debug stories — keep it local. The only sanctioned way for an entry to leave i
 the `publish-public` skill, and only after you tag it `public-ok`.
 
 The book is self-contained — these files are ready-to-clone copies of what
-Chapter 26 walks you through building.
+Chapter 28 walks you through building.
