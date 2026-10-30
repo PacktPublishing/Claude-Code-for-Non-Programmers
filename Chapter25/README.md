@@ -1,6 +1,6 @@
-# Chapter 23 — Session mastery and the latest surface
+# Chapter 25 — Session mastery and the latest surface
 
-Chapter 23 teaches the **session command surface**: eleven commands and one
+Chapter 25 teaches the **session command surface**: eleven commands and one
 keyword, organized into four families — navigation (`/rewind`, `/fork`,
 `--resume`, `Ctrl+G`), mid-task (`/btw`, `/compact`), situational awareness
 (`/cost`, `/context`), and model & effort (`/model`, `/effort`, `ultrathink`,
@@ -14,7 +14,7 @@ the chapter scopes them.
 ## Files
 
 ```
-ch23-session-mastery/
+Chapter25/
 ├── README.md                                  this file
 ├── prompts.md                                 every prompt + command, verbatim, in order
 └── work/
@@ -63,4 +63,4 @@ ch23-session-mastery/
    diagnoses as orchestrator double-dispatch.
 
 The book is self-contained — these files are ready-to-clone copies of what
-Chapter 23 walks you through building.
+Chapter 25 walks you through building.
