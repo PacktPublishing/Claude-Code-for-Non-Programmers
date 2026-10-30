@@ -1,4 +1,4 @@
-# Chapter 19 — The deck your boss asked for
+# Chapter 21 — The deck your boss asked for
 
 This chapter builds a **multi-source deck composer**: Claude reads
 five input surfaces (a boss email via Gmail, a linked Notion page, a
@@ -10,12 +10,12 @@ and only then renders the `.pptx` against the company template. The
 last move teaches the whole flow to a `/deck` slash command so the
 next deck takes 30 minutes instead of 90. The patterns introduced —
 **multi-source synthesis**, **clarification dialogue**, and
-**template-bound generation** — recur in Ch 20, 22, and 25.
+**template-bound generation** — recur in Ch 22, 24, and 27.
 
 ## Files in this folder
 
 ```
-ch19-the-deck/
+Chapter21/
 ├── README.md                                  this file
 ├── prompts.md                                 every chapter prompt, verbatim, in order
 ├── fixtures/
@@ -65,4 +65,4 @@ ch19-the-deck/
    before you let Claude render the `.pptx`.
 
 The book is self-contained — these files are ready-to-clone copies
-of what Chapter 19 walks you through building.
+of what Chapter 21 walks you through building.
