@@ -1,6 +1,6 @@
-# Chapter 4 — Three verbs you'll run every day (slash commands)
+# Chapter 6 — Three verbs you'll run every day (slash commands)
 
-Companion repo for Chapter 4. This is the only chapter in Part I where you
+Companion repo for Chapter 6. This is the only chapter in Part I where you
 type slash commands yourself — authoring a command requires running it. After
 this chapter the book-wide rule snaps back: you prompt in plain English and
 Claude picks the slash.
@@ -12,11 +12,11 @@ the command name. The file body is just the prompt — no JSON, no DSL.
 ## What's in this folder
 
 ```
-ch04-three-verbs/
+Chapter06/
 ├── README.md                         ← you are here
 ├── prompts.md                        ← every prompt the chapter has you type, in order
-├── work/                             ← clone of Maya's ~/work/ at the end of Ch 4
-│   ├── CLAUDE.md                     the work "badge" from Ch 2 (read before every command)
+├── work/                             ← clone of Maya's ~/work/ at the end of Ch 6
+│   ├── CLAUDE.md                     the work "badge" from Ch 4 (read before every command)
 │   ├── .claude/
 │   │   └── commands/
 │   │       ├── reconcile.md          /reconcile  — Step 2 (monthly bank-vs-Stripe)
