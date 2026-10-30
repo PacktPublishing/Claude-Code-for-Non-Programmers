@@ -1,4 +1,4 @@
-# Chapter 10 — Atlas, your watch on the world
+# Chapter 12 — Atlas, your watch on the world
 
 Atlas is Maya's second staff member: a **world-watcher** subagent. Where Iris
 reacts to what lands in the inbox, Atlas runs on a schedule, goes out and reads
@@ -13,7 +13,7 @@ a stored memory of last week, and a threshold that separates signal from noise.
 ## Files in this folder
 
 ```
-ch10-atlas-world-watcher/
+Chapter12/
 ├── README.md                         this file
 ├── prompts.md                        every prompt from the chapter, in order
 └── work/
@@ -66,7 +66,7 @@ version, which is what you want in production from day one.
 3. **Schedule it.** *"Schedule Atlas to run every weeknight at 11 PM"* →
    `0 23 * * 1-5`. Keep it on a different cadence from Iris's 7 AM morning run.
 
-4. **Surface signals.** `work/scripts/show-brief.sh` is the Chapter 7/9 morning
+4. **Surface signals.** `work/scripts/show-brief.sh` is the Chapter 9/11 morning
    brief with the Atlas section added. It collapses to `all quiet.` on quiet days
    and lists `**bold**` signal lines when something moved. Run it directly to see
    the four-section brief; it never crashes on missing files.
@@ -77,4 +77,4 @@ version, which is what you want in production from day one.
    change, and does NOT overwrite the last good snapshot.
 
 The book is self-contained — these files are ready-to-clone copies of what
-Chapter 10 walks you through building.
+Chapter 12 walks you through building.
