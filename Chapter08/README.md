@@ -1,6 +1,6 @@
-# Chapter 6 — Hire your first staff member (subagents and skills)
+# Chapter 8 — Hire your first staff member (subagents and skills)
 
-Chapter 6 has you author your first two non-prompt artifacts by *prompting*
+Chapter 8 has you author your first two non-prompt artifacts by *prompting*
 Claude to write them: a **subagent** (a separate Claude with its own room and
 its own toolbox) and a **skill** (an instruction card Claude picks up when it
 recognizes the situation). The subagent solves context pollution — research
@@ -31,7 +31,7 @@ variants from the chapter's "Make it yours" section and a runnable demo input.
 - `work/.claude/agents/inbox-digest.md` — daily Gmail summarizer subagent.
   Reads Gmail (via the Ch 5 MCP), classifies threads action/FYI/noise, writes
   a dated digest to `~/work/inbox/`. Read-Gmail + write-to-`~/work/` only — no
-  send, no external writes. (This is the bridge to Iris in Chapter 9.)
+  send, no external writes. (This is the bridge to Iris in Chapter 11.)
 - `work/.claude/agents/meeting-notes-summarizer.md` — read+write subagent
   that turns a long transcript into 5 bullets + 3 action items and saves
   the summary next to the transcript.
@@ -57,7 +57,7 @@ variants from the chapter's "Make it yours" section and a runnable demo input.
    cp -R work/.claude ~/work/.claude
    cp -R work/scripts ~/work/scripts
    ```
-   (Merge with whatever is already in `~/work/.claude/` from Chapters 3–5 —
+   (Merge with whatever is already in `~/work/.claude/` from Chapters 5–7 —
    these only add `agents/` and `skills/` entries.)
 2. Confirm Claude sees them: `claude agents list` and `claude skills list`.
 3. Try the subagent: *"Use the vendor-researcher subagent to read
@@ -72,4 +72,4 @@ variants from the chapter's "Make it yours" section and a runnable demo input.
    run the `meeting-notes-summarizer` subagent on it.
 
 The book is self-contained — these files are ready-to-clone copies of what
-Chapter 6 walks you through building.
+Chapter 8 walks you through building.
