@@ -1,4 +1,4 @@
-# Chapter 15 — Your first custom skill
+# Chapter 17 — Your first custom skill
 
 This chapter turns your writing voice into a file. You save three samples of your own
 writing, have Claude extract the patterns, and let it author `your-tone.md` — a skill that
@@ -6,12 +6,12 @@ auto-loads on any writing request and applies your voice rules to every draft. Y
 leave with a short `when-to-skill.md` decision tree (skill vs. slash command vs. subagent
 vs. just-prompt), and — from the "when it goes wrong" recovery — a `/draft` slash command
 that holds your writing *workflow* separately from your voice *behavior*. Every writing
-agent the newsroom (Ch 16) and launch crew (Ch 17) hire inherits this one file.
+agent the newsroom (Ch 18) and launch crew (Ch 19) hire inherits this one file.
 
 ## Files in this folder
 
 ```
-ch15-custom-skill/
+Chapter17/
 ├── README.md                                  ← this file
 ├── prompts.md                                 ← every chapter prompt, verbatim, in order
 └── work/                                      ← clone into your ~/work/
@@ -50,5 +50,5 @@ ch15-custom-skill/
 6. As you notice gaps, edit `your-tone.md` — add a section, narrow a rule. Skills evolve;
    they just shouldn't sprawl. Keep the body under ~6,000 characters.
 
-The book is self-contained — these files are ready-to-clone copies of what Chapter 15
+The book is self-contained — these files are ready-to-clone copies of what Chapter 17
 walks you through building.
