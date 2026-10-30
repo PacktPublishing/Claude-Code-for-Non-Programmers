@@ -1,4 +1,4 @@
-# Chapter 16 — The newsroom
+# Chapter 18 — The newsroom
 
 This chapter builds a **four-agent newsroom**: one parent agent (the
 editor) that orchestrates three specialists. The editor dispatches
@@ -10,12 +10,12 @@ Three primitives land here: **hand-off** (the dispatcher pattern),
 **parallel dispatch**, and **voice files shared across agents**
 (per-agent, opt-in). The newsroom runs on Friday's real launch — an
 auto-tag feature — and the researcher's reach into past campaigns
-comes through the `personal-data` MCP you built in Chapter 14.
+comes through the `personal-data` MCP you built in Chapter 16.
 
 ## Files in this folder
 
 ```
-ch16-newsroom/
+Chapter18/
 ├── README.md                                  ← you are here
 ├── prompts.md                                 ← every chapter prompt, verbatim, in order
 └── work/                                       (maps to ~/work/)
@@ -26,12 +26,12 @@ ch16-newsroom/
     │   │   ├── fact-checker.md                 verified / unverified / unknown report
     │   │   └── headline-writer.md              loads your-tone; the only prose agent
     │   └── skills/
-    │       └── your-tone.md                    voice file (from Ch14) — loaded by headline-writer only
+    │       └── your-tone.md                    voice file (from Ch16) — loaded by headline-writer only
     ├── specs/
     │   └── auto-tag.md                          the feature spec the fact-checker validates against
     ├── personal-data/
     │   └── fixtures/
-    │       ├── README.md                        what the Ch13 MCP serves + how to point it here
+    │       ├── README.md                        what the Ch15 MCP serves + how to point it here
     │       └── past-campaigns.csv               synthetic archive of past launches
     └── work-products/
         └── 2026-05-08-auto-tag-launch/          one folder per launch (the convention)
@@ -46,7 +46,7 @@ ch16-newsroom/
 1. **Copy `work/.claude/agents/newsroom/` and `work/.claude/skills/`
    into your `~/work/`** (or wherever you keep your scoped Claude
    Code config). The four agents and the voice file are ready to run.
-2. **Wire up the Chapter 14 MCP.** The researcher's allowlist includes
+2. **Wire up the Chapter 16 MCP.** The researcher's allowlist includes
    `mcp__personal_data`. Point your Chapter 14 `personal-data` MCP at
    `work/personal-data/fixtures/past-campaigns.csv` (synthetic) or at
    your own real campaign export. Without the MCP, the researcher has
@@ -64,4 +64,4 @@ ch16-newsroom/
    the chapter's main bug (see the recovery prompt in `prompts.md`).
 
 The book is self-contained — these files are ready-to-clone copies of
-what Chapter 16 walks you through building.
+what Chapter 18 walks you through building.
