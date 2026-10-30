@@ -1,4 +1,4 @@
-# Chapter 22 — The dashboard that replaced six browser tabs
+# Chapter 24 — The dashboard that replaced six browser tabs
 
 This chapter builds a self-refreshing stakeholder dashboard: one static HTML
 page at a bookmarkable URL that aggregates six (later seven) data sources —
@@ -16,7 +16,7 @@ fully understandable from one build script.
 ## Files
 
 ```
-ch22-the-dashboard/
+Chapter24/
 ├── README.md                        ← this file
 ├── prompts.md                       ← every chapter prompt, verbatim and in order
 ├── fixtures/
@@ -28,8 +28,8 @@ ch22-the-dashboard/
     │   └── bank-current.csv          ← sample bank CSV (cash, monthly burn)
     ├── research/
     │   ├── linkedin-snapshot/
-    │   │   ├── 2026-05-07.json       ← Ch 21 scrape output (today)
-    │   │   └── 2026-05-09.json       ← Ch 21 scrape output (for fallback demo)
+    │   │   ├── 2026-05-07.json       ← Ch 23 scrape output (today)
+    │   │   └── 2026-05-09.json       ← Ch 23 scrape output (for fallback demo)
     │   └── nps.sample.csv            ← 47 NPS responses (rename to nps.xlsx)
     └── dashboard/
         ├── build.sh                  ← nightly build: refresh → regenerate → deploy
@@ -62,14 +62,14 @@ ch22-the-dashboard/
    first-run numbers, so the page renders without running anything.
 
 2. **Wire up your own sources.** Connect the Stripe, GA, and Notion MCPs
-   (Ch 5). Drop your bank export at `work/finance/bank-current.csv`. Save
+   (Ch 7). Drop your bank export at `work/finance/bank-current.csv`. Save
    your NPS export as `work/research/nps.xlsx`. Point the LinkedIn refresher
    at your Ch 21 scrape output directory. See `fixtures/README.md` for each
    source's input shape.
 
 3. **Run a build.** `bash work/dashboard/build.sh` runs all refreshers,
    regenerates `index.html`, and (if the Vercel CLI is authenticated from
-   Ch 20) deploys. Watch `dashboard-deploy.log` for per-source status.
+   Ch 22) deploys. Watch `dashboard-deploy.log` for per-source status.
 
 4. **Schedule it (plain English).** Tell Claude "this needs to refresh every
    night at 3 AM" — Claude picks the `/schedule` primitive and registers the
@@ -85,4 +85,4 @@ ch22-the-dashboard/
    then see the yellow "X days old" indicator render on the page.
 
 The book is self-contained — these files are ready-to-clone copies of what
-Chapter 22 walks you through building.
+Chapter 24 walks you through building.
