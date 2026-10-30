@@ -1,4 +1,4 @@
-# Chapter 20 — The landing page that converts
+# Chapter 22 — The landing page that converts
 
 This chapter builds a webinar-registration landing page as **two layers**: a
 visible page (hero, value bullets, social proof, FAQ, two CTAs, mobile-first)
@@ -12,7 +12,7 @@ pre-deploy build guard). It deploys to Vercel's free Hobby tier in 77 minutes.
 ## Files
 
 ```
-ch20-the-website/
+Chapter22/
 ├── README.md                          this file
 ├── prompts.md                         every chapter prompt, verbatim, in order
 ├── fixtures/
@@ -20,7 +20,7 @@ ch20-the-website/
 └── work/
     ├── .claude/
     │   └── settings.json              Stop hook: pre-deploy.sh + vercel deploy on edit
-    ├── launches/2026-Q3-pricing-webinar/   synthetic Ch 17 launch-crew copy (read source)
+    ├── launches/2026-Q3-pricing-webinar/   synthetic Ch 19 launch-crew copy (read source)
     │   ├── headline.md
     │   ├── draft.md
     │   ├── customer-email.md
@@ -64,4 +64,4 @@ forward — every future landing page uses a variant of this 40-line file. See
 `prompts.md` for the six "make it yours" variations.
 
 The book is self-contained — these files are ready-to-clone copies of what
-Chapter 20 walks you through building.
+Chapter 22 walks you through building.
