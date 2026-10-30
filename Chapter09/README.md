@@ -1,4 +1,4 @@
-# Chapter 7 — Hooks and scheduling
+# Chapter 9 — Hooks and scheduling
 
 This chapter builds two primitives that make Claude work when you're not at the
 keyboard: a **scheduled job** (time-triggered) that writes a one-page morning
@@ -34,7 +34,7 @@ synthesis. These files are the chapter's reference implementation plus the five
    cp    work/watchlist.txt ~/work/
    chmod +x ~/work/scripts/*.sh
    ```
-2. Make sure Gmail, Calendar, and Notion are connected as MCPs (Chapter 5).
+2. Make sure Gmail, Calendar, and Notion are connected as MCPs (Chapter 7).
 3. Run the generator once by hand to see what it produces:
    ```bash
    ~/work/scripts/morning-brief.sh
@@ -45,4 +45,4 @@ synthesis. These files are the chapter's reference implementation plus the five
    `show-brief.sh` — start a fresh `claude` session in `~/work` to see it fire.
 
 The book is self-contained — these files are ready-to-clone copies of what
-Chapter 7 walks you through building.
+Chapter 9 walks you through building.
