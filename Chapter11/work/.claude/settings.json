@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          { "type": "command", "command": "~/work/scripts/show-brief.sh" }
+        ]
+      }
+    ]
+  }
+}
