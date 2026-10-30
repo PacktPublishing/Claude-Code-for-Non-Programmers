@@ -1,9 +1,9 @@
-# Chapter 2 — Reconcile your money in 10 minutes
+# Chapter 4 — Reconcile your money in 10 minutes
 
-Companion repo for Chapter 2 of *Claude Code for Non-Programmers*.
+Companion repo for Chapter 4 of *Claude Code for Non-Programmers*.
 
 Two CSV files. Ten minutes. A categorized P&L narrative Maya hands to her
-co-founder, plus the canonical seven-row leak file Chapter 21 reads to cancel
+co-founder, plus the canonical seven-row leak file Chapter 22 reads to cancel
 each subscription. None of it happens in a chat window — it all happens where
 the files live.
 
@@ -69,7 +69,7 @@ ch02-reconcile-money/
 
 ## The canonical leak file — do not change its shape
 
-`work/finance/subscription-leaks.md` is the file **Chapter 21** opens to cancel
+`work/finance/subscription-leaks.md` is the file **Chapter 23** opens to cancel
 each subscription through browser automation. It expects this exact shape:
 
 - four columns: `name | monthly_cost | last_charge_date | cancellation_url`
