@@ -1,4 +1,4 @@
-# Chapter 24 — Code review at home
+# Chapter 26 — Code review at home
 
 This chapter builds a personal code-review surface on top of Claude
 Code's review commands. You learn four lenses — `/simplify` (quality,
@@ -14,7 +14,7 @@ folder per review session.
 ## Files in this folder
 
 ```
-ch24-code-review-at-home/
+Chapter26/
 ├── README.md                                  ← you are here
 ├── prompts.md                                 ← every chapter prompt, verbatim
 ├── fixtures/
@@ -23,7 +23,7 @@ ch24-code-review-at-home/
     ├── .claude/
     │   ├── commands/
     │   │   ├── review-mine.md                 ← personal review-posture slash command
-    │   │   └── cancel-leak.md                 ← Ch 21 cancellation command (post-review)
+    │   │   └── cancel-leak.md                 ← Ch 23 cancellation command (post-review)
     │   └── auto-mode-hints.md                 ← classifier override hints
     ├── dashboard/
     │   ├── build.sh                           ← /simplify target (3 fixes applied)
@@ -68,4 +68,4 @@ ch24-code-review-at-home/
    reports under `reviews/2026-05-08/` show what each lens found.
 
 The book is self-contained — these files are ready-to-clone copies of
-what Chapter 24 walks you through building.
+what Chapter 26 walks you through building.
