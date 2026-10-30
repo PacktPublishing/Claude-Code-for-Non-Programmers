@@ -1,4 +1,4 @@
-# Chapter 14 — Your first custom MCP server
+# Chapter 16 — Your first custom MCP server
 
 This chapter has you cross the line from *installing* other people's MCPs to
 *authoring* your own. In two halves: first you **read** a small existing MCP
@@ -7,7 +7,7 @@ by line; then you **write** `personal-data` — a tiny MCP that exposes three
 tools (`list_records`, `find_record`, `summarize_records`) over a CSV of past
 campaigns. You install it with `claude mcp add`, prove it works, hit and fix
 the classic un-expanded-tilde path bug, and end with the connector showing up
-as the sixth entry in `claude mcp list`. Chapter 16's newsroom installs it as
+as the sixth entry in `claude mcp list`. Chapter 18's newsroom installs it as
 its research tool.
 
 ## Files in this folder
@@ -59,4 +59,4 @@ Swap in your own export (any CSV with at least `name`, `launched_at`, and
 ---
 
 The book is self-contained — these files are ready-to-clone copies of what
-Chapter 14 walks you through building.
+Chapter 16 walks you through building.
