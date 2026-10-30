@@ -1,4 +1,4 @@
-# Chapter 25 — Self-improving and the SDK
+# Chapter 27 — Self-improving and the SDK
 
 This chapter builds the meta layer: a self-improving loop that observes your own usage and proposes automations (with you as the gate), a meta-judge agent that reviews another agent's decisions, and the Agent SDK path that moves scheduled work off your laptop into a CI runner. Devon turns repeated patterns into skills, authors a reviewer for his inbox router Iris, and ports his nightly dashboard build into GitHub Actions so it runs whether or not his laptop is open.
 
@@ -20,10 +20,10 @@ This chapter builds the meta layer: a self-improving loop that observes your own
 ## How to use
 
 1. Copy `work/.claude/` contents into your own `~/work/.claude/` to get the skill, meta-judge agent, gate config, and architecture note.
-2. The meta-judge needs the Notion and Slack MCPs connected; point it at your own Iris setup (Ch 9). Use `fixtures/iris-tasks-sample.json` to understand the grading input.
+2. The meta-judge needs the Notion and Slack MCPs connected; point it at your own Iris setup (Ch 11). Use `fixtures/iris-tasks-sample.json` to understand the grading input.
 3. For the SDK build: drop `work/sdk/dashboard-ci/` into a repo, set the three GitHub secrets (`ANTHROPIC_API_KEY`, `VERCEL_TOKEN`, `SLACK_BOT_TOKEN`), `npm ci`, and push. See its own README for details.
 4. Run `/insights --last 30d` against your real history; `/insights-to-skills --pattern N` proposes a skill and the gate (from `insights-config.md`) fires before commit.
 
 The declined Friday-summary skill is intentionally **not** shipped as a real file — the chapter's When-it-goes-wrong beat is that the gate prevented it. See `fixtures/README.md` for what it would have looked like.
 
-The book is self-contained — these files are ready-to-clone copies of what Chapter 25 walks you through building.
+The book is self-contained — these files are ready-to-clone copies of what Chapter 27 walks you through building.
