@@ -1,4 +1,4 @@
-# Chapter 18 — The watchdog mesh
+# Chapter 20 — The watchdog mesh
 
 This chapter builds a **reactive orchestrator** that runs on a schedule
 while you sleep. One orchestrator dispatches three monitors in parallel
@@ -14,7 +14,7 @@ log line nobody reads.
 ## File-by-file
 
 ```
-ch18-watchdog-mesh/
+Chapter20/
 ├── README.md                         this file
 ├── prompts.md                        every chapter prompt, verbatim, in order
 ├── worktree-setup.md                 git-worktree create/verify/remove + boundary gotcha
@@ -32,7 +32,7 @@ ch18-watchdog-mesh/
 │   └── worktrees/watchdog-mesh/
 │       └── .claude/agents/watchdog/
 │           ├── orchestrator.md        ~37 lines — parallel dispatch, tier aggregation
-│           ├── inbox-monitor.md       Gmail rhythm anomalies (Ch 9)
+│           ├── inbox-monitor.md       Gmail rhythm anomalies (Ch 11)
 │           ├── calendar-monitor.md    missed-meeting risk
 │           └── deploys-monitor.md     3 signal sources + optional funnel source
 ├── variants/
@@ -66,4 +66,4 @@ apps — `fixtures/README.md` documents the input shape each monitor reads;
 no private data is fabricated here.
 
 The book is self-contained — these files are ready-to-clone copies of what
-Chapter 18 walks you through building.
+Chapter 20 walks you through building.
