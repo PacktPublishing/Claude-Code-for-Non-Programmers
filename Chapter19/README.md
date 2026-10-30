@@ -1,4 +1,4 @@
-# Chapter 17 — The launch crew
+# Chapter 19 — The launch crew
 
 This chapter builds a five-agent crew under one parent folder that ships a
 finished long-form draft across four channels at once. A **producer**
@@ -6,7 +6,7 @@ finished long-form draft across four channels at once. A **producer**
 in parallel, composes a side-by-side launch package, and on your approval hands
 the approved channels to the **Buffer MCP** for scheduled publishing (with a
 **Gmail-MCP fallback** for email). Every writer loads the same `your-tone`
-skill from Chapter 15 and layers thin per-channel rules on top — the pattern the
+skill from Chapter 17 and layers thin per-channel rules on top — the pattern the
 chapter names **channel specialization via skill layering**: one source of truth
 for voice, inheritance not duplication, suppression where a channel demands it
 but never overwriting the underlying voice. The new failure mode lives at the
@@ -16,7 +16,7 @@ producer verifies per-channel gate-readiness at package time, not at schedule ti
 ## Files
 
 ```
-ch17-launch-crew/
+Chapter19/
 ├── README.md                                  ← this file
 ├── prompts.md                                 ← every chapter prompt, verbatim & in order
 ├── work/
@@ -27,7 +27,7 @@ ch17-launch-crew/
 │   │   │   ├── x-writer.md                     loads your-tone, +X rules (≤280)
 │   │   │   ├── one-pager-writer.md             loads your-tone, +sales one-pager rules
 │   │   │   └── email-writer.md                 loads your-tone, +customer-email rules
-│   │   └── skills/your-tone/SKILL.md           Maya's brand voice (the Ch 15 dependency, included so the crew runs standalone)
+│   │   └── skills/your-tone/SKILL.md           Maya's brand voice (the Ch 17 dependency, included so the crew runs standalone)
 │   ├── work-products/2026-05-08-auto-tag-launch/
 │   │   └── draft.md                            sample input the producer reads
 │   └── launches/2026-05-08-auto-tag/
@@ -44,8 +44,8 @@ ch17-launch-crew/
 1. Drop `work/.claude/` into your `~/work/` so the agents and the `your-tone`
    skill resolve at `~/work/.claude/agents/launch-crew/` and
    `~/work/.claude/skills/your-tone/`. (The chapter already built `your-tone` in
-   Chapter 15 — a clone-ready copy is included here so the crew runs on its own.)
-2. Make sure the **Buffer MCP** from Chapter 5 is connected (and optionally the
+   Chapter 17 — a clone-ready copy is included here so the crew runs on its own.)
+2. Make sure the **Buffer MCP** from Chapter 7 is connected (and optionally the
    **Gmail MCP** for the email fallback). See `fixtures/README.md` for the input
    shapes; do not commit your tokens.
 3. Point the producer at a draft — the sample lives at
@@ -58,4 +58,4 @@ ch17-launch-crew/
    add one line to the producer's dispatch step.
 
 The book is self-contained — these files are ready-to-clone copies of what
-Chapter 17 walks you through building.
+Chapter 19 walks you through building.
