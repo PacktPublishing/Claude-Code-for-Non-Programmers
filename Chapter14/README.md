@@ -1,4 +1,4 @@
-# Chapter 12 — Echo, the CRM hygienist
+# Chapter 14 — Echo, the CRM hygienist
 
 Echo is the fourth and final staff member of Part III: a daily **CRM hygienist** that
 reads what you actually did this week (outbound Gmail + Calendar) and reconciles it
@@ -16,7 +16,7 @@ record safe.
   Write/Edit scoped to `~/work/echo/`. Contains the load-bearing **Prospect-evidence
   requirement** (full, not a stub), the deduplication rule, and the "what you never do" list.
 - `work/.claude/settings.local.json` — the permissions block. Seven deny rules: the three
-  Chapter 0.3 floor rules, the Chapter 9 Gmail-send rule, and three new Echo rules that
+  Chapter 1.3 floor rules, the Chapter 11 Gmail-send rule, and three new Echo rules that
   block Notion CRM writes **scoped to the CRM database ID** (`db_crm_8f3a`), so other agents'
   writes to other Notion DBs stay unaffected.
 - `work/.claude/memory/echo/` — Echo's between-runs memory:
@@ -27,8 +27,8 @@ record safe.
 - `work/echo/proposed-2026-05-07.md` — the first-pass proposal queue, in full: 11 missing
   entries, 6 stale stages, 2 cold-without-status. Structured by mismatch category, one
   proposal per item, every item source-anchored.
-- `work/scripts/show-brief.sh` — the morning brief script (Chapters 7/9/10/11) with the
-  Chapter 12 fifth section, "Echo's proposals," that reads the latest queue file.
+- `work/scripts/show-brief.sh` — the morning brief script (Chapters 9/11/12/13) with the
+  Chapter 14 fifth section, "Echo's proposals," that reads the latest queue file.
 - `variants/` — the CRM swap from Step 8:
   - `echo-hubspot.md`, `echo-pipedrive.md`, `echo-salesforce.md` — the same agent body with
     swapped MCP tool names.
@@ -58,5 +58,5 @@ record safe.
    `show-brief.sh`. Approve / edit / discard through your main Claude session — which writes
    to the CRM with per-action confirmation.
 
-The book is self-contained — these files are ready-to-clone copies of what Chapter 12 walks
+The book is self-contained — these files are ready-to-clone copies of what Chapter 14 walks
 you through building.
