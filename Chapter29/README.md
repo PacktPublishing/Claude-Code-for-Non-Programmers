@@ -1,4 +1,4 @@
-# Chapter 27 — The Sunday-night governance hour
+# Chapter 29 — The Sunday-night governance hour
 
 > *The closing chapter introduces no new primitives. It introduces two
 > practices: the Sunday-night governance hour, and the three-question rubric
