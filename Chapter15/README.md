@@ -1,4 +1,4 @@
-# Chapter 13 — Pheme, your channels messenger
+# Chapter 15 — Pheme, your channels messenger
 
 Pheme is the fifth specialist and the first one who runs *backwards*: instead of
 waking on a schedule and pulling data, he waits for messages to be **pushed**
@@ -85,8 +85,8 @@ would not work, or would not do what the chapter says, if copied exactly.
    `/imessage:access group add "iMessage;+;chat123…" --allow +15550123`, so
    other members of the thread are ignored. One-to-one texts are already gated
    by sender.
-5. **Make-it-yours #5** says the watchdog kill-switch is in Chapter 17. It is in
-   Chapter 18 (the watchdog mesh).
+5. **Make-it-yours #5** says the watchdog kill-switch is in Chapter 19. It is in
+   Chapter 20 (the watchdog mesh).
 
 ## The custom channels (make-it-yours #2 and #3)
 
