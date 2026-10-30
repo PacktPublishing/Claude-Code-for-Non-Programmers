@@ -1,6 +1,6 @@
-# Chapter 11 — Reuben, the bookkeeper
+# Chapter 13 — Reuben, the bookkeeper
 
-Chapter 11 hires Maya's third staff member, Reuben, and the lesson is *how the
+Chapter 13 hires Maya's third staff member, Reuben, and the lesson is *how the
 third hire is different by design from the first two.* Iris and Atlas are
 all-AI judgment workers. Reuben is **hybrid**: a tiny deterministic shell
 script does the exact arithmetic (sums, monthly groupings, running balance —
@@ -8,7 +8,7 @@ no AI, same answer every time), and an AI agent reads that output plus the raw
 CSV to categorize transactions, flag anomalies, and write the month's
 narrative — *constrained by the deterministic numbers it may never recompute or
 round.* A `SessionEnd` hook (the third hook the book promised, after
-`SessionStart` in Ch 7 and `PreToolUse` in Ch 8) files the finished P&L when a
+`SessionStart` in Ch 9 and `PreToolUse` in Ch 10) files the finished P&L when a
 calendar month rolls over. This folder ships clone-ready copies of all of it.
 
 ## Files
@@ -59,4 +59,4 @@ if it has a *good answer* in a wide acceptable range, use the Iris (all-AI)
 pattern.
 
 The book is self-contained — these files are ready-to-clone copies of what
-Chapter 11 walks you through building.
+Chapter 13 walks you through building.
