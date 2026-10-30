@@ -15,8 +15,8 @@ The clone-able artifacts start arriving in Chapter 1.2 (your first install and p
 
 You're one chapter too early. Jump ahead to:
 
-- [`1.2-install-and-first-prompt/`](../1.2-install-and-first-prompt/) — install + your first three prompts
-- [`1.3-two-safety-habits/`](../1.3-two-safety-habits/) — the floor-of-safety `settings.local.json`
+- [`1.2 - install-and-first-prompt/`](../1.2 - install-and-first-prompt/) — install + your first three prompts
+- [`1.3 - two-safety-habits/`](../1.3 - two-safety-habits/) — the floor-of-safety `settings.local.json`
 - [`Chapter03`](../Chapter03/) — the first full worked example
 
 This folder exists so the chapter numbering in the repo matches the chapter numbering in the book. That's it.
