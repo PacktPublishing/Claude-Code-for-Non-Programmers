@@ -1,4 +1,4 @@
-# Chapter 3 — Give Claude a memory it actually uses (`CLAUDE.md`)
+# Chapter 5 — Give Claude a memory it actually uses (`CLAUDE.md`)
 
 This chapter builds the one file Claude reads at the top of every session in your work folder: a six-line `CLAUDE.md` — four borrowed behavioral lines (the universal "how to think" rules from the 60K-star `forrestchang/andrej-karpathy-skills` repo) plus two contextual lines only you can write (who you are, what's off-limits). It also tours the `.claude/` folder anatomy and creates the empty `commands/`, `agents/`, and `skills/` placeholders that later chapters fill. This folder holds ready-to-clone copies of all of that, plus the five reader variants and the recovery artifacts from the "when it goes wrong" section.
 
@@ -7,8 +7,8 @@ This chapter builds the one file Claude reads at the top of every session in you
 ### `work/` — copy this into your `~/work/`
 - `work/CLAUDE.md` — Maya's final six-line boot script (4 borrowed + 2 hers). The exact file from Step 5.
 - `work/.claude/commands/.gitkeep` — empty placeholder, filled in Chapter 4.
-- `work/.claude/agents/.gitkeep` — empty placeholder, filled in Chapters 6 / 9-12.
-- `work/.claude/skills/.gitkeep` — empty placeholder, filled in Chapters 6 / 15.
+- `work/.claude/agents/.gitkeep` — empty placeholder, filled in Chapters 8 / 11-14.
+- `work/.claude/skills/.gitkeep` — empty placeholder, filled in Chapters 8 / 17.
 
 ### `variants/` — the five "Make it yours" templates
 Same four behavioral lines, different two contextual lines. Pick the one closest to you, rename it to `CLAUDE.md`, and edit the contextual lines to fit your real folder and your real fences.
@@ -24,8 +24,8 @@ Same four behavioral lines, different two contextual lines. Pick the one closest
 
 ## How to use
 1. Copy `work/CLAUDE.md` to your `~/work/CLAUDE.md` (or pick a `variants/` file, rename it to `CLAUDE.md`, and edit the two contextual lines for your real folder and fences).
-2. Copy the empty placeholders if you want the full anatomy on disk now: `cp -R work/.claude ~/work/.claude`. The deny list `settings.local.json` is not in this folder; it comes from Chapter 0.3 (`../ch00.3-two-safety-habits/`).
+2. Copy the empty placeholders if you want the full anatomy on disk now: `cp -R work/.claude ~/work/.claude`. The deny list `settings.local.json` is not in this folder; it comes from Chapter 1.3 (`../1.3-two-safety-habits/`).
 3. Quit and restart Claude in `~/work/` — `CLAUDE.md` is read at session start, so a running session won't see a file you just created. Look for `Reading CLAUDE.md... loaded.` in the boot output.
 4. Run the litmus test on every line: *"would removing this line cause you to make an actual mistake?"* Cut anything that fails.
 
-The book is self-contained — these files are ready-to-clone copies of what Chapter 3 walks you through building.
+The book is self-contained — these files are ready-to-clone copies of what Chapter 5 walks you through building.
