@@ -1,4 +1,4 @@
-# Chapter 21 — Browser and computer use
+# Chapter 23 — Browser and computer use
 
 This chapter has Claude drive a real browser (Claude-in-Chrome MCP) and, when a
 site blocks automation, the whole desktop (computer-use MCP) to close seven
@@ -13,14 +13,14 @@ as clauses.
 ## Files
 
 ```
-ch21-browser-and-computer-use/
+Chapter23/
 ├── README.md                         this file
 ├── prompts.md                        every chapter prompt, verbatim and in order
 └── work/
     ├── .claude/commands/
     │   └── cancel-leak.md            the capstone slash command (Step 8)
     ├── finance/
-    │   ├── subscription-leaks.md     the Ch 2 input (4 cols, 7 rows) + [CANCELLED] markers
+    │   ├── subscription-leaks.md     the Ch 4 input (4 cols, 7 rows) + [CANCELLED] markers
     │   └── cancellations/2026-05-08/
     │       ├── summary.md            per-flow dark-pattern transcript
     │       ├── total-saved.md        $84/mo, $1,008/yr ledger
@@ -48,16 +48,16 @@ the command at `~/work/.claude/commands/cancel-leak.md` (project-scoped, not glo
 2. Make sure you have the Claude-in-Chrome MCP and computer-use MCP installed
    (one-time, the same way every other MCP in this book installs — see Appendix C).
    Claude will prompt you the first time it tries to drive the browser.
-3. Have a `subscription-leaks.md` from Chapter 2 (4 columns:
+3. Have a `subscription-leaks.md` from Chapter 4 (4 columns:
    `name | monthly_cost | last_charge_date | cancellation_url`). A synthetic sample
    ships at `work/finance/subscription-leaks.md`.
 4. Run it: *"Run cancel-leak on ~/work/finance/subscription-leaks.md."*
    - The first cancellation runs in **default per-action approval mode** (the
-     Ch 8 default `y`/`n` approve prompt, applied to the browser surface) —
+     Ch 10 default `y`/`n` approve prompt, applied to the browser surface) —
      Claude proposes each navigate/click/fill and waits for your y/n. Plan
      mode would be read-only (describe-only), so it is *not* the right mode
      for this command.
-   - After the first success, you hit Shift+Tab to cycle into auto-approve
+   - After the first success, you hit Shift + Tab to cycle into auto-approve
      (acceptEdits / auto mode). Claude still pauses and asks before any
      final-confirmation modal, on any login/password prompt, and on any
      anti-automation page (falling back to computer use).
@@ -73,4 +73,4 @@ for you. The `competitors.csv` and the make-it-yours inputs are small synthetic
 samples — replace them with your own data.
 
 The book is self-contained — these files are ready-to-clone copies of what
-Chapter 21 walks you through building.
+Chapter 23 walks you through building.
